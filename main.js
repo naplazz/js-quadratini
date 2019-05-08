@@ -13,9 +13,7 @@ console.log(randomNumber)
 $(".quadrato").each(function(index, element){
   if (randomNumber.includes(index)) {
     $(this).addClass("pippo");
-
   }
-
 });
 
 $(".quadrato").click(function(){
